@@ -24,8 +24,10 @@ img{
     max-width: 100%;
     display: block;
 }
-
-.header{
+ul {
+    display: flex;
+}
+.menu{
     background: #1d1e20 ;
     display: flex;
     flex-wrap: wrap;
