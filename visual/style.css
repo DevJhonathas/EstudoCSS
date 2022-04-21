@@ -8,7 +8,9 @@ body, ul, li, p{
 
 body{
     margin-bottom: 100px;
+    background: #0b0c0e;
 }
+
 
 a{
     text-decoration: none;
@@ -166,4 +168,57 @@ ul {
     grid-column: 1;
     grid-row: 2;
     align-self: end;
+}
+
+/* DARK MODE */
+
+.DarkMode{
+    background: #0b0c0e;
+}
+
+.AntiDark{
+    color: rgb(190, 189, 189);
+    text-decoration: none;
+}
+.AntiDarkP{
+    text-align: center;
+    margin-top: 100px;
+    margin: 50px;
+}
+
+.Flex p, h1{
+    color: rgb(190, 189, 189);
+}
+
+.Grid p{
+    color: rgb(190, 189, 189);
+}
+
+.Grid2 p, h2{
+    color: rgb(190, 189, 189);
+}
+
+.Grid3 p{
+    color: rgb(190, 189, 189);
+}
+
+
+/* FLEX OF THE PAGE ABOUT */
+
+.CenterDivImage {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px;
+    background: black;
+  }
+  
+.FlexAbout{
+    width: 60%;
+  }
+
+.CenterDivImage > div{
+    flex: 1 1 200px;
+    margin: 10px;
 }
