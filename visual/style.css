@@ -6,6 +6,7 @@ body, ul, li, p{
     font-family: Arial;
 }
 
+
 body{
     margin-bottom: 100px;
     background: #0b0c0e;
@@ -29,6 +30,13 @@ img{
 ul {
     display: flex;
 }
+.boruto{
+    display: grid;
+    max-width: 80px;
+    margin: 0 auto;
+    border-radius: 80px;
+}
+
 .menu{
     background: #1d1e20 ;
     display: flex;
