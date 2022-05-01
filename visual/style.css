@@ -32,9 +32,9 @@ ul {
 }
 .boruto{
     display: grid;
-    max-width: 80px;
+    max-width: 50px;
     margin: 0 auto;
-    border-radius: 80px;
+    border-radius: 50px;
 }
 
 .menu{
