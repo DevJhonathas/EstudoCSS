@@ -12,6 +12,10 @@ body{
     background: #0b0c0e;
 }
 
+::-webkit-scrollbar{
+    width: 0;
+}
+
 
 a{
     text-decoration: none;
